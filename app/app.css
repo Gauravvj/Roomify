@@ -120,15 +120,15 @@
                     }
 
                     .name {
-                        @apply text-xl font-serif font-bold text-black tracking-tight;
+                        @apply text-2xl md:text-3xl font-serif font-bold text-black tracking-tight;
                     }
                 }
 
                 .links {
-                    @apply hidden md:flex items-center space-x-6;
+                    @apply flex items-center space-x-4;
 
                     a {
-                        @apply text-sm font-medium text-zinc-600 hover:text-black transition-colors;
+                        @apply text-sm font-medium text-zinc-600 hover:text-black transition-colors px-2 py-1 rounded-md;
                     }
                 }
             }
@@ -422,7 +422,7 @@
             }
 
             h1 {
-                @apply text-6xl md:text-8xl font-serif leading-[0.95] text-black mb-8 max-w-5xl mx-auto;
+                @apply text-5xl md:text-7xl font-serif leading-[0.95] text-black mb-8 max-w-5xl mx-auto;
             }
 
             .subtitle {
